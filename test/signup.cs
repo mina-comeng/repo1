@@ -4,7 +4,10 @@ using System.Text;
 
 namespace test
 {
-    class signup
+  public  class signup
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Family { get; set; }
     }
 }
